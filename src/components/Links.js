@@ -1,12 +1,12 @@
 import React from "react";
 import user from "../data/user";
 
-const Links = ({ githubLink, linkedinLink }) => {
+const Links = ({ github, linkedin }) => {
   return (
     <div>
       <h3>Links</h3>
-      <a href={githubLink}>{githubLink}</a>
-      <a href={linkedinLink}>{linkedinLink}</a>
+      <a href={github}>{github}</a>
+      <a href={linkedin}>{linkedin}</a>
     </div>
   );
 };
